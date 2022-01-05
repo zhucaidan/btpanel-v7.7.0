@@ -38,9 +38,9 @@ fi
 
 download_Url=$NODE_URL
 setup_path=/www
-version=$(curl -Ss --connect-timeout 5 -m 2 http://www.bt.cn/api/panel/get_version)
+version=$(curl -Ss --connect-timeout 5 -m 2 https://raw.githubusercontent.com/zhucaidan/btpanel-v7.7.0/main/api/panel/get_version)
 if [ "$version" = '' ];then
-	version='7.8.0'
+	version='7.7.0'
 fi
 armCheck=$(uname -m|grep arm)
 if [ "${armCheck}" ];then
