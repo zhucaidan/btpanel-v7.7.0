@@ -58,7 +58,7 @@ cd $setup_path/server/panel/
 check_bt=`cat /etc/init.d/bt`
 if [ "${check_bt}" = "" ];then
 	rm -f /etc/init.d/bt
-	wget -O /etc/init.d/bt $download_Url/install/src/bt6.init -T 20
+	wget -O /etc/init.d/bt https://raw.githubusercontent.com/zhucaidan/btpanel-v7.7.0/main/install/src/bt6.init -T 20
 	chmod +x /etc/init.d/bt
 fi
 rm -f /www/server/panel/*.pyc
