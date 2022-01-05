@@ -46,7 +46,7 @@ armCheck=$(uname -m|grep arm)
 if [ "${armCheck}" ];then
 	version='7.7.0'
 fi
-wget -T 5 -O /tmp/panel.zip https://raw.githubusercontent.com/zhucaidan/btpanel-v7.7.0/main/install/src/panel6.zip
+wget -T 5 -O /tmp/panel.zip https://raw.githubusercontent.com/zhucaidan/btpanel-v7.7.0/main/install/src/LinuxPanel-7.7.0.zip
 dsize=$(du -b /tmp/panel.zip|awk '{print $1}')
 if [ $dsize -lt 10240 ];then
 	echo "获取更新包失败，请稍后更新或联系宝塔运维"
