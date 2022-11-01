@@ -5,6 +5,7 @@ curl -sSO https://raw.githubusercontent.com/dostume/btpanel-v7.7.0/main/install/
 ```
 ```Bash
 破解
+
 curl -sSO https://raw.githubusercontent.com/dostume/btpanel-v7.7.0/main/one_key_happy.sh && bash one_key_happy.sh
 ```
 优化
