@@ -22,6 +22,12 @@ curl -sSO https://raw.githubusercontent.com/dostume/btpanel-v7.7.0/main/optimize
 
 
 
+
+
+
+
+
+
 服务器访问github失败
 ```Bash
 
