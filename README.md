@@ -28,10 +28,10 @@ curl -sSO https://raw.githubusercontent.com/dostume/btpanel-v7.7.0/main/optimize
 
 
 
-服务器访问github失败
+服务器没反应访问github失败，需要改hosts
 ```Bash
 
 echo -e "151.101.109.194 github.global.ssl.fastly.net\n185.199.111.153 assets-cdn.github.com\n52.74.223.119 github.com\n13.250.162.133 codeload.github.com\n185.199.111.133 raw.githubusercontent.com" > /etc/hosts
 
 ```
-重启服务器。
+重启服务器再执行命令。
