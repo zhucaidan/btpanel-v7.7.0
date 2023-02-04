@@ -15,11 +15,13 @@ curl -sSO https://raw.githubusercontent.com/zhucaidan/btpanel-v7.7.0/main/instal
 
 
 ```Bash
+localectl set-locale LANG=en_US.UTF-8
 nano /etc/default/locale
 ```
 
 ```Bash
-LANG=en_US.UTF-8
+LANG="en_US.UTF-8"
+LC_ALL="en_US.UTF-8"
 ```
 
 修改后保存文件，重启VPS即可。
